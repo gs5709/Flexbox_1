@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Yuji Syuku', serif;
+  }
+  
+  /* container alignment */
+  .container-1 {
+    display: flex;
+    border: hidden;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+}
+.container-2 {
+    display: flex;
+    border: hidden;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.container-3 {
+    display: flex;
+    border: hidden;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.container-4{
+    padding: 20px;
+    border:hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(223, 223, 223);
+    
+}
+.container-4-1{
+    display: flex;
+    border: hidden;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.container-5{
+    display: flex;
+    border: hidden;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+.container-6{
+    text-align: center;
+    border: hidden;
+    padding: 20px;
+    justify-content: center;
+    
+    background-color: rgb(223, 223, 223);
+}
+.container-7{
+    text-align: center;
+    padding: 20px;
+    border: hidden;
+    justify-content: center;
+    
+    background-color: black;
+    color: white;
+  }
+
+  .container-hr{
+      display: flex;
+      justify-content: center;
+  }
+
+  /* To edit the content */
+  .content-1 {
+    border: hidden;
+    width: 400px;
+    margin: 5px 0px;
+  }
+  .content-2 {
+    border: hidden;
+    width: 400px;
+    margin: 5px 0px;
+  }
+  .content-3 {
+    border: hidden;
+    width: 400px;
+    margin: 5px 0px;
+  }
+  .p4{
+      margin: 30px;
+  }
+  .company-logo{
+      border:hidden;
+      margin: 30px 10px;
+      padding: 10px;
+  }
+  
+  .content-5{
+      border:hidden;
+      margin: 30px 15px;
+
+  }
+
+
+/* To edit horizontal line */
+hr{
+    
+    width: 60%;
+    margin-right: 45px;
+}
+
+
+  /* To edit the image */
+  .image1 {
+    border: hidden;
+    width: 400px;
+    margin: 5px;
+  }
+  .image2 {
+    border: hidden;
+    width: 400px;
+    margin: 5px;
+  }
+  .image3 {
+    border: hidden;
+    width: 400px;
+    margin: 5px;
+  }
+  .image6{
+      margin: 10px 0px;
+  }
+  .image6 img{
+      display: inline-block;
+      border: hidden;
+      border-radius: 110px;
+  }
+  
+
+  /* editing small tags */
+  .p1{
+      font-size: 10px;
+      color: rgb(113, 181, 207);
+      font-weight: 700;
+      margin: 20px 0px;
+  }
+  .p4{
+      font-size: 20px;
+      color: rgb(113, 181, 207);
+      font-weight: 700;
+  }
+
+  /* To edit letters and sentences */
+  .content-1 span{
+      font-weight: 400;
+  }
+  .p2{
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .p3{
+      margin: 10px 0px;
+      font-weight: 500;
+  }
+  .icon-p{
+      font-weight: bold;
+  }
+  .content-5 p{
+      font-weight: 600px;
+  }
+  .line1{
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 700;
+      color: rgb(165, 164, 164);
+      margin: 5px 0px;
+  }
+  .line2{
+      margin: 10px 0px;
+      font-size: 10px;
+  }
+  .p7{
+      font-size: 40px;
+      font-weight: bold;
+  }
+  .p8{
+      font-size: 15px;
+      margin: 15px 0px;
+  }
+  .line3{
+      font-size: 10px;
+  }
+
+  /* To edit buttons and logo */
+  .button{
+      display: inline-block;
+      border: hidden;
+      background: rgb(66, 66, 197);
+      color: white;
+      padding: 5px 15px;
+      margin: 10px 0px;
+      cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .button:hover{
+        background: rgb(102, 102, 199);
+  }
+  .company-logo{
+      display: inline-block;
+      background-color: rgb(160, 160, 160);
+      opacity: 0.3;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  .company-logo:hover{
+      opacity: 0.8;
+  }
+  .company-logo span{
+      font-weight: 300;
+  }
+  .icon{
+      display: inline-block;
+      border: hidden;
+      background-color: rgb(233, 231, 231);
+      border-radius: 250px;
+      padding: 10px 13px;
+      margin: 20px;
+  }
